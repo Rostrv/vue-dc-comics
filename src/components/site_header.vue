@@ -38,14 +38,14 @@ nav {
           margin-right: 10px;
 
           &.active{
-              color: blue;
-              border-bottom: 3px solid blue;
+              color: #0282f9;
+              border-bottom: 3px solid #0282f9;
           }
 
           
           &:hover{
-              color: #0202f9;
-              border-bottom: 3px solid blue;
+              color: #0282f9;
+              border-bottom: 3px solid #0282f9;
           }
         }
     }
