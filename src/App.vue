@@ -3,7 +3,8 @@
     <SiteHeader/>
     <SiteMain/>
     <MiddleNav/> 
-    <SiteFooter/>   
+    <SiteFooter/>  
+
   </div>
   
 </template>
@@ -24,7 +25,7 @@ export default {
    SiteMain,
    MiddleNav,
    SiteFooter
-   }
+  }
 }
 
 </script>
@@ -34,6 +35,11 @@ export default {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
 }
 
 img{
