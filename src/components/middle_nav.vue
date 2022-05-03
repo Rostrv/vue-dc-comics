@@ -1,7 +1,7 @@
 <template>
     <section class="middle">
         <div class="container">
-            <ul>
+            <ul class="p-0 m-0">
                 <li> <a href=""> <img src="@/assets/img/buy-comics-digital-comics.png" alt=""> digital comics</a></li>
                 <li> <a href=""> <img src="@/assets/img/buy-comics-merchandise.png" alt="">dc merchandise</a> </li>
                 <li> <a href=""> <img src="@/assets/img/buy-comics-shop-locator.png" alt="">subscription</a> </li>
@@ -17,6 +17,9 @@
 .middle{
     background-color:#0282f9;
     padding: 1rem 0;
+    
+    
+    
 
     & img{
         width:50px;
@@ -29,6 +32,7 @@
         flex-direction: column;
         justify-content:center;
         margin: auto;
+        
         
     }
 
