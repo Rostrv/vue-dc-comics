@@ -2,7 +2,8 @@
   <div id="app">
     <SiteHeader/>
     <SiteMain/>
-    <MiddleNav/>    
+    <MiddleNav/> 
+    <SiteFooter/>   
   </div>
   
 </template>
@@ -11,6 +12,8 @@
 import SiteHeader from '@/components/site_header.vue'
 import SiteMain from '@/components/site_main.vue'
 import MiddleNav from '@/components/middle_nav.vue'
+import SiteFooter from '@/components/site_footer.vue'
+
 
 
 
@@ -19,8 +22,9 @@ export default {
   components: {
    SiteHeader,
    SiteMain,
-   MiddleNav
-  }
+   MiddleNav,
+   SiteFooter
+   }
 }
 
 </script>
@@ -42,6 +46,6 @@ img{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 30px;
+  
 }
 </style>
