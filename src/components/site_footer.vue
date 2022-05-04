@@ -54,7 +54,6 @@
                    </div>
                </div>
                <div class="col-6 logo">
-                   <img src="@/assets/img/dc-logo-bg.png" alt="">
                </div>
            </div>
         </div>
@@ -94,10 +93,19 @@
         height: 400px;
     }
 
+    .row{
+        height: 400px;
+    }
+
+    & .col-6{
+        height: 400px;
+    }
+
     & .logo{
-        position: relative;
-        z-index: 1;
-        top: -100px;
+        background-image:url("@/assets/img/dc-logo-bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        
     }
 
     & .col-3{
@@ -126,8 +134,7 @@
     
     & .footer-bottom{
         background-color: rgb(58, 56, 56);
-        position: relative;
-        z-index: 1;
+        
     }
 
     & .bottom{
