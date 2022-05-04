@@ -93,10 +93,6 @@
         height: 400px;
     }
 
-    .row{
-        height: 400px;
-    }
-
     & .col-6{
         height: 400px;
     }
@@ -110,6 +106,7 @@
 
     & .col-3{
         text-align: start;
+        height: 100%;
     }
 
     & ul{

@@ -29,13 +29,15 @@ nav {
       margin: 2rem 0;
 
       a{
-          padding: 0.5rem 1rem;
+          padding: 3rem 0.5rem;
           text-decoration: none;
           font-size: 0.9rem;
           color: #333;
           font-weight: 600;
           text-transform: uppercase;
           margin-right: 10px;
+          height: 100%;
+          
 
           &.active{
               color: #0282f9;
